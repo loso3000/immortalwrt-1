@@ -1827,6 +1827,7 @@ define Device/xiaomi_mi-router-cr6609
 endef
 TARGET_DEVICES += xiaomi_mi-router-cr6609
 
+
 define Device/xiaomi_redmi-router-ac2100
   $(Device/xiaomi_nand_separate)
   DEVICE_MODEL := Redmi Router AC2100
@@ -1835,6 +1836,7 @@ define Device/xiaomi_redmi-router-ac2100
 	-wpad-openssl
 endef
 TARGET_DEVICES += xiaomi_redmi-router-ac2100
+
 
 define Device/xiaoyu_xy-c5
   IMAGE_SIZE := 32448k
